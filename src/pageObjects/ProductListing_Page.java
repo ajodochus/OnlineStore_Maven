@@ -3,6 +3,8 @@ package pageObjects;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import utility.Log;
  
@@ -113,7 +115,7 @@ public class ProductListing_Page extends BaseClass {
 	     public static WebElement btn_AddToCart() throws Exception{
 	    	  element = null;
 	       	try{
-	       		element= driver.findElement(By.xpath(".//*[@id='default_products_page_container']/div[4]/div[2]/form/div[2]/div[1]/span/input"));
+	       		element= driver.findElement(By.xpath(".//*[@class='prodtitle']/a[text()='Magic Mouse']/../..//div[@class='input-button-buy']"));
 	       		Log.info("Add to Cart button is found for Product 2");
 	       	}catch (Exception e){
 	       		Log.error("Product 2 Add to Cart button is not found");
@@ -131,7 +133,13 @@ public class ProductListing_Page extends BaseClass {
 		 public static WebElement btn_GoToCart() throws Exception{
 	   	 element = null;
 	      	try{
-	      		element= driver.findElement(By.xpath(".//*[@id='fancy_notification_content']/a[1]"));
+	      		
+	      		String xPathWebElement = ".//*[@id='fancy_notification_content']//*[@class='go_to_checkout']";
+	      		WebDriverWait wait = new WebDriverWait(driver, 30);
+	      		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(xPathWebElement)));
+	      		
+	      		element= driver.findElement(By.xpath(xPathWebElement));
+	      		
 	      		Log.info("Go to Cart button is found on the Cart Pop Up window");
 	      	}catch (Exception e){
 	      		Log.info("Go to Cart button is not found on the Cart Pop Up window");

@@ -23,7 +23,7 @@ import utility.Utils;
         }
         public static WebElement lnk_LogOut() throws Exception{
             try{
-	        	element = driver.findElement(By.id("account_logout"));
+	        	element = driver.findElement(By.linkText("Log out"));
 	        
 	            Log.info("Log Out link is found on the Home Page");
             }catch (Exception e){

@@ -4,53 +4,45 @@
     <line>
       <![CDATA[SignIn Action is successfully perfomred]]>
     </line>
+    <line>
+      <![CDATA[Verification Passed for Product Name on Check Out page.]]>
+    </line>
+    <line>
+      <![CDATA[Verification Passed for Product Price on Check Out page.]]>
+    </line>
+    <line>
+      <![CDATA[Payment is successfully perfromed for the purchased product.]]>
+    </line>
+    <line>
+      <![CDATA[Verification Passed for Product Name on Confirmation page]]>
+    </line>
+    <line>
+      <![CDATA[Verification Passed for Product Price on Confirmation page]]>
+    </line>
+    <line>
+      <![CDATA[Verification Passed for Product Name]]>
+    </line>
+    <line>
+      <![CDATA[Verification Failed for Product Price]]>
+    </line>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="65158" started-at="2015-11-26T13:31:33Z" finished-at="2015-11-26T13:32:38Z">
+  <suite name="Command line suite" duration-ms="51706" started-at="2015-11-26T18:28:13Z" finished-at="2015-11-26T18:29:05Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="65158" started-at="2015-11-26T13:31:33Z" finished-at="2015-11-26T13:32:38Z">
+    <test name="Command line test" duration-ms="51706" started-at="2015-11-26T18:28:13Z" finished-at="2015-11-26T18:29:05Z">
       <class name="test.java.Framework_001Test">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.java.Framework_001Test@15975490]" name="beforeMethod" is-config="true" duration-ms="23638" started-at="2015-11-26T14:31:33Z" finished-at="2015-11-26T14:31:57Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.java.Framework_001Test@15975490]" name="beforeMethod" is-config="true" duration-ms="10299" started-at="2015-11-26T19:28:13Z" finished-at="2015-11-26T19:28:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="main()[pri:0, instance:test.java.Framework_001Test@15975490]" name="main" duration-ms="41459" started-at="2015-11-26T14:31:57Z" finished-at="2015-11-26T14:32:38Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method status="FAIL" signature="main()[pri:0, instance:test.java.Framework_001Test@15975490]" name="main" duration-ms="41357" started-at="2015-11-26T19:28:23Z" finished-at="2015-11-26T19:29:05Z">
+          <exception class="java.lang.Exception">
             <message>
-              <![CDATA[Unable to locate element: {"method":"xpath","selector":".//*[@id='fancy_notification_content']/a[1]"}
-Command duration or timeout: 20.09 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
-System info: host: 'de-c-w-869', ip: '10.242.2.54', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=42.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 40f0d2a1-d469-43dc-8e53-04add69b2c10
-*** Element info: {Using=xpath, value=.//*[@id='fancy_notification_content']/a[1]}]]>
+              <![CDATA[Test Case Failed because of Verification]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":".//*[@id='fancy_notification_content']/a[1]"}
-Command duration or timeout: 20.09 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
-System info: host: 'de-c-w-869', ip: '10.242.2.54', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=42.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 40f0d2a1-d469-43dc-8e53-04add69b2c10
-*** Element info: {Using=xpath, value=.//*[@id='fancy_notification_content']/a[1]}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:490)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)
-	at pageObjects.ProductListing_Page$PopUpAddToCart.btn_GoToCart(ProductListing_Page.java:134)
-	at appModules.ProductSelect_Action.productNumber(ProductSelect_Action.java:94)
-	at test.java.Framework_001Test.main(Framework_001Test.java:83)
+              <![CDATA[java.lang.Exception: Test Case Failed because of Verification
+	at test.java.Framework_001Test.main(Framework_001Test.java:108)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -85,49 +77,63 @@ Session ID: 40f0d2a1-d469-43dc-8e53-04add69b2c10
 	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":".//*[@id='fancy_notification_content']/a[1]"}
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
-System info: host: 'de-c-w-869', ip: '10.242.2.54', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
-Driver info: driver.version: unknown
-	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/test/AppData/Local/Temp/anonymous7788174354756338909webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10659)
-	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/test/AppData/Local/Temp/anonymous7788174354756338909webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:621)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- java.lang.Exception -->
           <reporter-output>
             <line>
               <![CDATA[SignIn Action is successfully perfomred]]>
             </line>
+            <line>
+              <![CDATA[Verification Passed for Product Name on Check Out page.]]>
+            </line>
+            <line>
+              <![CDATA[Verification Passed for Product Price on Check Out page.]]>
+            </line>
+            <line>
+              <![CDATA[Payment is successfully perfromed for the purchased product.]]>
+            </line>
+            <line>
+              <![CDATA[Verification Passed for Product Name on Confirmation page]]>
+            </line>
+            <line>
+              <![CDATA[Verification Passed for Product Price on Confirmation page]]>
+            </line>
+            <line>
+              <![CDATA[Verification Passed for Product Name]]>
+            </line>
+            <line>
+              <![CDATA[Verification Failed for Product Price]]>
+            </line>
           </reporter-output>
         </test-method> <!-- main -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.java.Framework_001Test@15975490]" name="afterMethod" is-config="true" duration-ms="20" started-at="2015-11-26T14:32:38Z" finished-at="2015-11-26T14:32:38Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.java.Framework_001Test@15975490]" name="afterMethod" is-config="true" duration-ms="20" started-at="2015-11-26T19:29:05Z" finished-at="2015-11-26T19:29:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- test.java.Framework_001Test -->
       <class name="test.java.NewTest">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.java.NewTest@6b143ee9]" name="beforeMethod" is-config="true" duration-ms="10" started-at="2015-11-26T14:32:38Z" finished-at="2015-11-26T14:32:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.java.NewTest@6b143ee9]" name="afterMethod" is-config="true" duration-ms="0" started-at="2015-11-26T14:32:38Z" finished-at="2015-11-26T14:32:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="gtest()[pri:0, instance:test.java.NewTest@6b143ee9]" name="gtest" duration-ms="0" started-at="2015-11-26T14:32:38Z" finished-at="2015-11-26T14:32:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- gtest -->
-        <test-method status="PASS" signature="ftest()[pri:0, instance:test.java.NewTest@6b143ee9]" name="ftest" duration-ms="0" started-at="2015-11-26T14:32:38Z" finished-at="2015-11-26T14:32:38Z">
+        <test-method status="PASS" signature="ftest()[pri:0, instance:test.java.NewTest@6b143ee9]" name="ftest" duration-ms="0" started-at="2015-11-26T19:29:05Z" finished-at="2015-11-26T19:29:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ftest -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.java.NewTest@6b143ee9]" name="afterMethod" is-config="true" duration-ms="0" started-at="2015-11-26T14:32:38Z" finished-at="2015-11-26T14:32:38Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.java.NewTest@6b143ee9]" name="afterMethod" is-config="true" duration-ms="0" started-at="2015-11-26T19:29:05Z" finished-at="2015-11-26T19:29:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.java.NewTest@6b143ee9]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2015-11-26T14:32:38Z" finished-at="2015-11-26T14:32:38Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.java.NewTest@6b143ee9]" name="afterMethod" is-config="true" duration-ms="0" started-at="2015-11-26T19:29:05Z" finished-at="2015-11-26T19:29:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="gtest()[pri:0, instance:test.java.NewTest@6b143ee9]" name="gtest" duration-ms="0" started-at="2015-11-26T19:29:05Z" finished-at="2015-11-26T19:29:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gtest -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.java.NewTest@6b143ee9]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2015-11-26T19:29:05Z" finished-at="2015-11-26T19:29:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.java.NewTest@6b143ee9]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2015-11-26T19:29:05Z" finished-at="2015-11-26T19:29:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->

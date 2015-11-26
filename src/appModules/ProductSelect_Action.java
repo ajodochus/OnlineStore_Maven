@@ -103,5 +103,14 @@ public class ProductSelect_Action {
 			throw(e);
 			}
 		}
-
+	
+		public static void addProduct2(){
+			try{
+				ProductListing_Page.Product_1.btn_AddToCart().click();
+				Log.info("click on add Product 2");
+				
+			}catch(Exception e){
+				Log.error(e.getMessage());
+			}
+		}
 	}

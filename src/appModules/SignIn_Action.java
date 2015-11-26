@@ -38,7 +38,7 @@ import utility.Utils;
             Log.info(sPassword+" is entered in Password text box" );
             
             LogIn_Page.btn_LogIn().click();
-            Log.info("Click action is performed on Submit button");
+            Log.info("Click action LogIn is performed on Submit button");
             
             // I noticed in few runs that Selenium is trying to perform the next action before the complete Page load
             // So I have decided to put a wait on the Logout link element

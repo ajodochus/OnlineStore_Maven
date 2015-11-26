@@ -34,6 +34,18 @@ public class Utils {
 		return driver;
 	}
 	
+	public static WebDriver OpenBrowserWithEntryPoint(String pageUrl) throws Exception {
+		try{
+			driver = new FirefoxDriver();
+			driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+			driver.get(pageUrl);
+			Log.info("OpenBrowser with entry Point: " + pageUrl);
+		}catch (Exception e){
+			Log.error("OpenBrowserWithEntryPoint not able to launch site: " + pageUrl + " -- " + e.getMessage());
+		}
+		return driver;
+	}
+	
 	public static String getTestCaseName(String sTestCase)throws Exception{
 		String value = sTestCase;
 		try{
