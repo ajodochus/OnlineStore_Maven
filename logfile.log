@@ -1,0 +1,184 @@
+2015-11-26 09:54:50,532 INFO  [Log] **************************************************************************************** 
+2015-11-26 09:54:50,533 INFO  [Log] **************************************************************************************** 
+2015-11-26 09:54:50,533 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Framework_001Test       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2015-11-26 09:54:50,533 INFO  [Log] **************************************************************************************** 
+2015-11-26 09:54:50,534 INFO  [Log] **************************************************************************************** 
+2015-11-26 10:40:02,881 INFO  [Log] **************************************************************************************** 
+2015-11-26 10:40:02,883 INFO  [Log] **************************************************************************************** 
+2015-11-26 10:40:02,883 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Framework_001Test       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2015-11-26 10:40:02,883 INFO  [Log] **************************************************************************************** 
+2015-11-26 10:40:02,883 INFO  [Log] **************************************************************************************** 
+2015-11-26 10:46:17,250 INFO  [Log] **************************************************************************************** 
+2015-11-26 10:46:17,268 INFO  [Log] **************************************************************************************** 
+2015-11-26 10:46:17,268 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Framework_001Test       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2015-11-26 10:46:17,268 INFO  [Log] **************************************************************************************** 
+2015-11-26 10:46:17,268 INFO  [Log] **************************************************************************************** 
+2015-11-26 10:48:08,224 INFO  [Log] **************************************************************************************** 
+2015-11-26 10:48:08,225 INFO  [Log] **************************************************************************************** 
+2015-11-26 10:48:08,225 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Framework_001Test       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2015-11-26 10:48:08,225 INFO  [Log] **************************************************************************************** 
+2015-11-26 10:48:08,225 INFO  [Log] **************************************************************************************** 
+2015-11-26 10:56:41,511 INFO  [Log] **************************************************************************************** 
+2015-11-26 10:56:41,512 INFO  [Log] **************************************************************************************** 
+2015-11-26 10:56:41,512 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Framework_001Test       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2015-11-26 10:56:41,512 INFO  [Log] **************************************************************************************** 
+2015-11-26 10:56:41,513 INFO  [Log] **************************************************************************************** 
+2015-11-26 10:56:42,598 INFO  [Log] Excel sheet opened 
+2015-11-26 10:56:42,599 INFO  [Log] Total number of Row used return as < 2 >. 
+2015-11-26 10:57:10,800 INFO  [Log] New driver instantiated 
+2015-11-26 10:57:20,672 INFO  [Log] Implicit wait applied on the driver for 10 seconds 
+2015-11-26 10:57:20,982 INFO  [Log] Web application launched successfully 
+2015-11-26 10:57:42,455 ERROR [Log] My Acocunt link is not found on the Home Page 
+2015-11-26 10:57:43,045 ERROR [Log] Unable to locate element: {"method":"xpath","selector":".//*[@id='account']/a"}
+Command duration or timeout: 21.38 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'de-c-w-869', ip: '10.242.2.54', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=42.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 3c9b18b6-995d-4cfe-8828-590325bebfb0
+*** Element info: {Using=xpath, value=.//*[@id='account']/a} 
+2015-11-26 10:57:43,072 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2015-11-26 10:57:43,072 INFO  [Log] X 
+2015-11-26 10:57:43,072 INFO  [Log] X 
+2015-11-26 10:57:43,072 INFO  [Log] X 
+2015-11-26 10:57:43,072 INFO  [Log] X 
+2015-11-26 12:06:13,921 INFO  [Log] **************************************************************************************** 
+2015-11-26 12:06:13,922 INFO  [Log] **************************************************************************************** 
+2015-11-26 12:06:13,922 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Framework_001Test       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2015-11-26 12:06:13,922 INFO  [Log] **************************************************************************************** 
+2015-11-26 12:06:13,922 INFO  [Log] **************************************************************************************** 
+2015-11-26 12:06:14,658 INFO  [Log] Excel sheet opened 
+2015-11-26 12:06:14,658 INFO  [Log] Total number of Row used return as < 2 >. 
+2015-11-26 12:06:38,284 INFO  [Log] New driver instantiated 
+2015-11-26 12:06:52,674 INFO  [Log] Implicit wait applied on the driver for 10 seconds 
+2015-11-26 12:06:53,109 INFO  [Log] Web application launched successfully 
+2015-11-26 12:07:00,081 INFO  [Log] My Account link is found on the Home Page 
+2015-11-26 12:07:00,476 INFO  [Log] Click action is perfromed on My Account link 
+2015-11-26 12:07:03,366 INFO  [Log] Username text box is found on the Login Page 
+2015-11-26 12:07:03,581 INFO  [Log] testuser_1 is entered in UserName text box 
+2015-11-26 12:07:03,604 INFO  [Log] Password text box is found on the Login page 
+2015-11-26 12:07:04,723 INFO  [Log] Test@123 is entered in Password text box 
+2015-11-26 12:07:04,746 INFO  [Log] Submit button is found on the Login page 
+2015-11-26 12:07:04,952 INFO  [Log] Click action is performed on Submit button 
+2015-11-26 12:07:25,169 ERROR [Log] Log Out link is not found on the Home Page 
+2015-11-26 12:07:25,913 ERROR [Log] Unable to locate element: {"method":"id","selector":"account_logout"}
+Command duration or timeout: 20.14 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'de-c-w-869', ip: '10.242.2.54', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=42.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 8c3ad230-cbcb-4440-8fad-50781e6e1559
+*** Element info: {Using=id, value=account_logout} 
+2015-11-26 12:07:25,926 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2015-11-26 12:07:25,926 INFO  [Log] X 
+2015-11-26 12:07:25,926 INFO  [Log] X 
+2015-11-26 12:07:25,926 INFO  [Log] X 
+2015-11-26 12:07:25,926 INFO  [Log] X 
+2015-11-26 14:25:14,375 INFO  [Log] **************************************************************************************** 
+2015-11-26 14:25:14,395 INFO  [Log] **************************************************************************************** 
+2015-11-26 14:25:14,395 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Framework_001Test       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2015-11-26 14:25:14,395 INFO  [Log] **************************************************************************************** 
+2015-11-26 14:25:14,395 INFO  [Log] **************************************************************************************** 
+2015-11-26 14:25:14,705 INFO  [Log] Excel sheet opened 
+2015-11-26 14:25:14,705 INFO  [Log] Total number of Row used return as < 2 >. 
+2015-11-26 14:25:37,263 INFO  [Log] New driver instantiated 
+2015-11-26 14:25:51,102 INFO  [Log] Implicit wait applied on the driver for 10 seconds 
+2015-11-26 14:25:52,579 INFO  [Log] Web application launched successfully 
+2015-11-26 14:26:01,960 INFO  [Log] My Account link is found on the Home Page 
+2015-11-26 14:26:02,458 INFO  [Log] Click action is perfromed on My Account link 
+2015-11-26 14:26:06,649 INFO  [Log] Username text box is found on the Login Page 
+2015-11-26 14:26:06,929 INFO  [Log] testuser_1 is entered in UserName text box 
+2015-11-26 14:26:07,609 INFO  [Log] Password text box is found on the Login page 
+2015-11-26 14:26:07,719 INFO  [Log] Test@123 is entered in Password text box 
+2015-11-26 14:26:07,769 INFO  [Log] Submit button is found on the Login page 
+2015-11-26 14:26:08,129 INFO  [Log] Click action is performed on Submit button 
+2015-11-26 14:26:28,294 ERROR [Log] Log Out link is not found on the Home Page 
+2015-11-26 14:26:29,250 ERROR [Log] Unable to locate element: {"method":"id","selector":"account_logout"}
+Command duration or timeout: 20.09 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'de-c-w-869', ip: '10.242.2.54', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=42.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4d964ffe-e91a-4ce6-bb7a-cd2a358fac6b
+*** Element info: {Using=id, value=account_logout} 
+2015-11-26 14:26:29,270 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2015-11-26 14:26:29,270 INFO  [Log] X 
+2015-11-26 14:26:29,270 INFO  [Log] X 
+2015-11-26 14:26:29,270 INFO  [Log] X 
+2015-11-26 14:26:29,270 INFO  [Log] X 
+2015-11-26 14:27:08,386 INFO  [Log] **************************************************************************************** 
+2015-11-26 14:27:08,387 INFO  [Log] **************************************************************************************** 
+2015-11-26 14:27:08,387 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Framework_001Test       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2015-11-26 14:27:08,387 INFO  [Log] **************************************************************************************** 
+2015-11-26 14:27:08,387 INFO  [Log] **************************************************************************************** 
+2015-11-26 14:27:08,789 INFO  [Log] Excel sheet opened 
+2015-11-26 14:27:08,789 INFO  [Log] Total number of Row used return as < 2 >. 
+2015-11-26 14:27:22,857 INFO  [Log] New driver instantiated 
+2015-11-26 14:27:25,132 INFO  [Log] Implicit wait applied on the driver for 10 seconds 
+2015-11-26 14:27:25,254 INFO  [Log] Web application launched successfully 
+2015-11-26 14:27:28,850 INFO  [Log] My Account link is found on the Home Page 
+2015-11-26 14:27:29,024 INFO  [Log] Click action is perfromed on My Account link 
+2015-11-26 14:27:31,350 INFO  [Log] Username text box is found on the Login Page 
+2015-11-26 14:27:31,461 INFO  [Log] testuser_1 is entered in UserName text box 
+2015-11-26 14:27:31,483 INFO  [Log] Password text box is found on the Login page 
+2015-11-26 14:27:31,583 INFO  [Log] Test@123 is entered in Password text box 
+2015-11-26 14:27:31,605 INFO  [Log] Submit button is found on the Login page 
+2015-11-26 14:27:32,979 INFO  [Log] Click action is performed on Submit button 
+2015-11-26 14:27:53,089 ERROR [Log] Log Out link is not found on the Home Page 
+2015-11-26 14:27:54,061 ERROR [Log] Unable to locate element: {"method":"id","selector":"account_logout"}
+Command duration or timeout: 20.10 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'de-c-w-869', ip: '10.242.2.54', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=42.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 31cce90d-ea23-471a-9057-c7a70657a245
+*** Element info: {Using=id, value=account_logout} 
+2015-11-26 14:27:54,081 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2015-11-26 14:27:54,081 INFO  [Log] X 
+2015-11-26 14:27:54,081 INFO  [Log] X 
+2015-11-26 14:27:54,081 INFO  [Log] X 
+2015-11-26 14:27:54,081 INFO  [Log] X 
+2015-11-26 14:31:33,970 INFO  [Log] **************************************************************************************** 
+2015-11-26 14:31:33,970 INFO  [Log] **************************************************************************************** 
+2015-11-26 14:31:33,970 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Framework_001Test       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2015-11-26 14:31:33,970 INFO  [Log] **************************************************************************************** 
+2015-11-26 14:31:33,970 INFO  [Log] **************************************************************************************** 
+2015-11-26 14:31:34,312 INFO  [Log] Excel sheet opened 
+2015-11-26 14:31:34,312 INFO  [Log] Total number of Row used return as < 2 >. 
+2015-11-26 14:31:55,248 INFO  [Log] New driver instantiated 
+2015-11-26 14:31:56,747 INFO  [Log] Implicit wait applied on the driver for 10 seconds 
+2015-11-26 14:31:57,153 INFO  [Log] Web application launched successfully 
+2015-11-26 14:32:01,538 INFO  [Log] My Account link is found on the Home Page 
+2015-11-26 14:32:01,701 INFO  [Log] Click action is perfromed on My Account link 
+2015-11-26 14:32:05,239 INFO  [Log] Username text box is found on the Login Page 
+2015-11-26 14:32:05,369 INFO  [Log] demoqatrash-mail is entered in UserName text box 
+2015-11-26 14:32:05,399 INFO  [Log] Password text box is found on the Login page 
+2015-11-26 14:32:06,639 INFO  [Log] ck2ZvO690IW2 is entered in Password text box 
+2015-11-26 14:32:06,679 INFO  [Log] Submit button is found on the Login page 
+2015-11-26 14:32:07,009 INFO  [Log] Click action is performed on Submit button 
+2015-11-26 14:32:10,931 INFO  [Log] Log Out link is found on the Home Page 
+2015-11-26 14:32:12,061 INFO  [Log] Product category link is found under Top Navigation 
+2015-11-26 14:32:12,301 INFO  [Log] Accessories link is found under Product Category 
+2015-11-26 14:32:12,521 INFO  [Log] Click action is performed on the selected Product Type 
+2015-11-26 14:32:12,521 INFO  [Log] Product Type Accessories is selected from the Top menu 
+2015-11-26 14:32:16,141 INFO  [Log] Add to Cart button is found for Product 2 
+2015-11-26 14:32:16,471 INFO  [Log] Product 2 is selected from the Product listing page 
+2015-11-26 14:32:36,579 INFO  [Log] Go to Cart button is not found on the Cart Pop Up window 
+2015-11-26 14:32:38,614 ERROR [Log] Unable to locate element: {"method":"xpath","selector":".//*[@id='fancy_notification_content']/a[1]"}
+Command duration or timeout: 20.09 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'de-c-w-869', ip: '10.242.2.54', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=42.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 40f0d2a1-d469-43dc-8e53-04add69b2c10
+*** Element info: {Using=xpath, value=.//*[@id='fancy_notification_content']/a[1]} 
+2015-11-26 14:32:38,624 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2015-11-26 14:32:38,624 INFO  [Log] X 
+2015-11-26 14:32:38,624 INFO  [Log] X 
+2015-11-26 14:32:38,624 INFO  [Log] X 
+2015-11-26 14:32:38,624 INFO  [Log] X 

@@ -1,4 +1,4 @@
-package testCases;
+package test.java;
 
 import org.apache.log4j.xml.DOMConfigurator;
 import org.openqa.selenium.WebDriver;
@@ -18,7 +18,7 @@ import appModules.ProductSelect_Action;
 import appModules.SignIn_Action;
 import appModules.Verification_Action;
 
-public class Framework_001{
+public class Framework_001Test{
 	public WebDriver driver;
 	private String sTestCaseName;
 	private int iTestCaseRow;
