@@ -102,10 +102,13 @@ public class Framework_001Test{
 		if(BaseClass.bResult==true){
 			// If the value of boolean variable is True, then your test is complete pass and do this
 			ExcelUtils.setCellData("Pass", iTestCaseRow, Constant.Col_Result);
+			Log.info("Test passed");
 		}else{
 			// If the value of boolean variable is False, then your test is fail, and you like to report it accordingly
 			// This is to throw exception in case of fail test, this exception will be caught by catch block below
+			Log.error("Test failed");
 			throw new Exception("Test Case Failed because of Verification");
+			
 		}
 		
 	  // Below are the steps you may like to perform in case of failed test or any exception faced before ending your test 

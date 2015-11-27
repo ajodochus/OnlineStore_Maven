@@ -53,7 +53,7 @@ public class Add_Product2_to_Card{
 		iTestCaseRow = ExcelUtils.getRowContains(sTestCaseName,Constant.Col_TestCaseName);
 		
 		// Launching the browser, this will take the Browser Type from Test Data Sheet 
-		driver = Utils.OpenBrowserWithEntryPoint("http://store.demoqa.com/products-page/product-category/accessories/");
+		driver = Utils.OpenFFWithEntryPoint("http://store.demoqa.com/products-page/product-category/accessories/");
 		
 		// Initializing the Base Class for Selenium driver
 		// Now we do need to provide the Selenium driver to any of the Page classes or Module Actions

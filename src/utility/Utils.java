@@ -15,7 +15,9 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class Utils {
-		public static WebDriver driver = null;
+	
+	public static WebDriver driver = null;
+	
 	public static WebDriver OpenBrowser(int iTestCaseRow) throws Exception{
 		String sBrowserName;
 		try{
@@ -34,7 +36,25 @@ public class Utils {
 		return driver;
 	}
 	
-	public static WebDriver OpenBrowserWithEntryPoint(String pageUrl) throws Exception {
+	public static WebDriver OpenBrowserWithTargetUrl(String browser, String targetUrl) throws Exception {
+		
+		try{
+			if (browser.equalsIgnoreCase("Mozilla")){
+				driver = new FirefoxDriver();
+				Log.info("New Firefoxdriver instantiated");
+			    driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+			    Log.info("Implicit wait applied on the driver for 10 seconds");
+			    driver.get(targetUrl);
+			    Log.info("Web application launched at " + targetUrl + " successfully");
+
+			}
+		} catch (Exception e) {
+			Log.error("Utils/openBrowser(String): " + e.getMessage());
+		}
+		return driver;
+	}
+	
+	public static WebDriver OpenFFWithEntryPoint(String pageUrl) throws Exception {
 		try{
 			driver = new FirefoxDriver();
 			driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
@@ -54,11 +74,11 @@ public class Utils {
 			posi = value.lastIndexOf(".");	
 			value = value.substring(posi + 1);
 			return value;
-				}catch (Exception e){
+		}catch (Exception e){
 			Log.error("Class Utils | Method getTestCaseName | Exception desc : "+e.getMessage());
 			throw (e);
-					}
-			}
+		}
+	}
 	
 	 public static void mouseHoverAction(WebElement mainElement, String subElement){
 		
