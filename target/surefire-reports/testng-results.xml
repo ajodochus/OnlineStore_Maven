@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="20443" started-at="2015-11-27T23:08:25Z" finished-at="2015-11-27T23:08:45Z">
+  <suite name="Surefire suite" duration-ms="20556" started-at="2015-12-06T11:54:54Z" finished-at="2015-12-06T11:55:15Z">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="20443" started-at="2015-11-27T23:08:25Z" finished-at="2015-11-27T23:08:45Z">
+    <test name="Surefire test" duration-ms="20556" started-at="2015-12-06T11:54:54Z" finished-at="2015-12-06T11:55:15Z">
       <class name="test.java.ProductSearchTest">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.java.ProductSearchTest@dfd3711]" name="beforeMethod" is-config="true" duration-ms="13522" started-at="2015-11-28T00:08:25Z" finished-at="2015-11-28T00:08:39Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.java.ProductSearchTest@3b81a1bc]" name="beforeMethod" is-config="true" duration-ms="13130" started-at="2015-12-06T12:54:54Z" finished-at="2015-12-06T12:55:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="verifyProductSearchListResult()[pri:0, instance:test.java.ProductSearchTest@dfd3711]" name="verifyProductSearchListResult" duration-ms="6884" started-at="2015-11-28T00:08:39Z" finished-at="2015-11-28T00:08:45Z">
+        <test-method status="PASS" signature="verifyProductSearchListResult()[pri:0, instance:test.java.ProductSearchTest@3b81a1bc]" name="verifyProductSearchListResult" duration-ms="7385" started-at="2015-12-06T12:55:08Z" finished-at="2015-12-06T12:55:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyProductSearchListResult -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.java.ProductSearchTest@dfd3711]" name="afterMethod" is-config="true" duration-ms="19" started-at="2015-11-28T00:08:45Z" finished-at="2015-11-28T00:08:45Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.java.ProductSearchTest@3b81a1bc]" name="afterMethod" is-config="true" duration-ms="17" started-at="2015-12-06T12:55:15Z" finished-at="2015-12-06T12:55:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->

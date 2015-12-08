@@ -85,3 +85,173 @@ Session ID: 38e0dd14-8dd0-466a-87b4-be9318083995
 2015-11-28 00:08:45,961 INFO  [Log] X 
 2015-11-28 00:08:45,961 INFO  [Log] X 
 2015-11-28 00:08:45,961 INFO  [Log] X 
+2015-11-28 23:25:10,733 INFO  [Log] TC name A: test.java.ProductSearchTest@3b81a1bc 
+2015-11-28 23:25:10,733 INFO  [Log] TC name B: ProductSearchTest 
+2015-11-28 23:25:32,007 INFO  [Log] OpenBrowser with entry Point: http://store.demoqa.com/ 
+2015-11-28 23:25:52,242 ERROR [Log] Searchbox is not found on the BaseClass 
+2015-11-28 23:25:52,617 ERROR [Log] Unable to locate element: {"method":"xpath","selector":".//input[@value='Search Products']"}
+Command duration or timeout: 20.07 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'de-c-w-869', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=42.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4265d601-87a0-4651-a689-1ac8da7260ea
+*** Element info: {Using=xpath, value=.//input[@value='Search Products']} 
+2015-11-28 23:25:52,819 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             ProductSearchTest-E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2015-11-28 23:25:52,819 INFO  [Log] X 
+2015-11-28 23:25:52,819 INFO  [Log] X 
+2015-11-28 23:25:52,819 INFO  [Log] X 
+2015-11-28 23:25:52,819 INFO  [Log] X 
+2015-11-29 01:00:48,050 INFO  [Log] TC name A: test.java.ProductSearchTest@3b81a1bc 
+2015-11-29 01:00:48,065 INFO  [Log] TC name B: ProductSearchTest 
+2015-11-29 01:01:02,920 INFO  [Log] OpenBrowser with entry Point: http://store.demoqa.com/ 
+2015-11-29 01:01:09,243 INFO  [Log] Searchbox is found on the BaseClass 
+2015-11-29 01:01:09,509 INFO  [Log] sendkeys: apple into TopNav search 
+2015-11-29 01:01:09,538 INFO  [Log] Searchbox is found on the BaseClass 
+2015-11-29 01:01:10,443 INFO  [Log] Click Enter within Topnav Search 
+2015-11-29 01:01:10,444 INFO  [Log] in der topnavigatin suche nach dem Begriff: apple 
+2015-11-29 01:01:13,279 INFO  [Log] Side was loaded, page title contains 'Search Results' 
+2015-11-29 01:01:13,279 INFO  [Log] SearchPage is present 
+2015-11-29 01:01:13,326 INFO  [Log] Div Product list found on: null 
+2015-11-29 01:01:13,357 INFO  [Log] container for products is present 
+2015-11-29 01:01:13,420 INFO  [Log] count products: 9 
+2015-11-29 01:01:13,420 INFO  [Log] test passed 
+2015-11-29 01:01:13,420 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             ProductSearchTest-E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2015-11-29 01:01:13,420 INFO  [Log] X 
+2015-11-29 01:01:13,420 INFO  [Log] X 
+2015-11-29 01:01:13,420 INFO  [Log] X 
+2015-11-29 01:01:13,420 INFO  [Log] X 
+2015-12-04 21:27:18,430 INFO  [Log] TC name A: test.java.ProductSearchTest@dfd3711 
+2015-12-04 21:27:18,465 INFO  [Log] TC name B: ProductSearchTest 
+2015-12-04 21:27:39,840 INFO  [Log] OpenBrowser with entry Point: http://store.demoqa.com/ 
+2015-12-04 21:27:49,073 INFO  [Log] Searchbox is found on the BaseClass 
+2015-12-04 21:27:49,376 INFO  [Log] sendkeys: apple into TopNav search 
+2015-12-04 21:27:49,405 INFO  [Log] Searchbox is found on the BaseClass 
+2015-12-04 21:27:50,619 INFO  [Log] Click Enter within Topnav Search 
+2015-12-04 21:27:50,620 INFO  [Log] in der topnavigatin suche nach dem Begriff: apple 
+2015-12-04 21:27:53,401 INFO  [Log] Side was loaded, page title contains 'Search Results' 
+2015-12-04 21:27:53,401 INFO  [Log] SearchPage is present 
+2015-12-04 21:27:53,435 INFO  [Log] Div Product list found on: null 
+2015-12-04 21:27:53,460 INFO  [Log] container for products is present 
+2015-12-04 21:27:53,522 INFO  [Log] count products: 9 
+2015-12-04 21:27:53,522 INFO  [Log] test passed 
+2015-12-04 21:27:53,524 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             ProductSearchTest-E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2015-12-04 21:27:53,524 INFO  [Log] X 
+2015-12-04 21:27:53,524 INFO  [Log] X 
+2015-12-04 21:27:53,524 INFO  [Log] X 
+2015-12-04 21:27:53,524 INFO  [Log] X 
+2015-12-05 12:15:08,343 INFO  [Log] TC name A: test.java.ProductSearchTest@dfd3711 
+2015-12-05 12:15:08,359 INFO  [Log] TC name B: ProductSearchTest 
+2015-12-05 12:15:20,988 INFO  [Log] OpenBrowser with entry Point: http://store.demoqa.com/ 
+2015-12-05 12:15:24,961 INFO  [Log] Searchbox is found on the BaseClass 
+2015-12-05 12:15:25,100 INFO  [Log] sendkeys: apple into TopNav search 
+2015-12-05 12:15:25,122 INFO  [Log] Searchbox is found on the BaseClass 
+2015-12-05 12:15:26,073 INFO  [Log] Click Enter within Topnav Search 
+2015-12-05 12:15:26,073 INFO  [Log] in der topnavigatin suche nach dem Begriff: apple 
+2015-12-05 12:15:28,326 INFO  [Log] Side was loaded, page title contains 'Search Results' 
+2015-12-05 12:15:28,326 INFO  [Log] SearchPage is present 
+2015-12-05 12:15:28,368 INFO  [Log] Div Product list found on: null 
+2015-12-05 12:15:28,401 INFO  [Log] container for products is present 
+2015-12-05 12:15:28,459 INFO  [Log] count products: 9 
+2015-12-05 12:15:28,459 INFO  [Log] test passed 
+2015-12-05 12:15:28,461 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             ProductSearchTest-E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2015-12-05 12:15:28,461 INFO  [Log] X 
+2015-12-05 12:15:28,462 INFO  [Log] X 
+2015-12-05 12:15:28,462 INFO  [Log] X 
+2015-12-05 12:15:28,462 INFO  [Log] X 
+2015-12-05 12:49:22,860 INFO  [Log] TC name A: test.java.ProductSearchTest@3b81a1bc 
+2015-12-05 12:49:22,860 INFO  [Log] TC name B: ProductSearchTest 
+2015-12-05 12:49:34,811 INFO  [Log] OpenBrowser with entry Point: http://store.demoqa.com/ 
+2015-12-05 12:49:38,931 INFO  [Log] Searchbox is found on the BaseClass 
+2015-12-05 12:49:39,027 INFO  [Log] sendkeys: apple into TopNav search 
+2015-12-05 12:49:39,050 INFO  [Log] Searchbox is found on the BaseClass 
+2015-12-05 12:49:39,697 INFO  [Log] Click Enter within Topnav Search 
+2015-12-05 12:49:39,697 INFO  [Log] in der topnavigatin suche nach dem Begriff: apple 
+2015-12-05 12:49:41,882 INFO  [Log] Side was loaded, page title contains 'Search Results' 
+2015-12-05 12:49:41,882 INFO  [Log] SearchPage is present 
+2015-12-05 12:49:41,922 INFO  [Log] Div Product list found on: null 
+2015-12-05 12:49:41,946 INFO  [Log] container for products is present 
+2015-12-05 12:49:41,989 INFO  [Log] count products: 9 
+2015-12-05 12:49:41,989 INFO  [Log] test passed 
+2015-12-05 12:49:41,991 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             ProductSearchTest-E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2015-12-05 12:49:41,991 INFO  [Log] X 
+2015-12-05 12:49:41,991 INFO  [Log] X 
+2015-12-05 12:49:41,991 INFO  [Log] X 
+2015-12-05 12:49:41,991 INFO  [Log] X 
+2015-12-05 20:10:05,868 INFO  [Log] TC name A: test.java.ProductSearchTest@dfd3711 
+2015-12-05 20:10:05,931 INFO  [Log] TC name B: ProductSearchTest 
+2015-12-05 20:10:24,558 INFO  [Log] OpenBrowser with entry Point: http://store.demoqa.com/ 
+2015-12-05 20:10:24,734 INFO  [Log] Searchbox is found on the BaseClass 
+2015-12-05 20:10:24,937 INFO  [Log] sendkeys: apple into TopNav search 
+2015-12-05 20:10:24,964 INFO  [Log] Searchbox is found on the BaseClass 
+2015-12-05 20:10:26,088 INFO  [Log] Click Enter within Topnav Search 
+2015-12-05 20:10:26,088 INFO  [Log] in der topnavigatin suche nach dem Begriff: apple 
+2015-12-05 20:10:28,398 INFO  [Log] Side was loaded, page title contains 'Search Results' 
+2015-12-05 20:10:28,399 INFO  [Log] SearchPage is present 
+2015-12-05 20:10:28,433 INFO  [Log] Div Product list found on: null 
+2015-12-05 20:10:28,458 INFO  [Log] container for products is present 
+2015-12-05 20:10:28,520 INFO  [Log] count products: 9 
+2015-12-05 20:10:28,520 INFO  [Log] test passed 
+2015-12-05 20:10:28,521 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             ProductSearchTest-E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2015-12-05 20:10:28,522 INFO  [Log] X 
+2015-12-05 20:10:28,522 INFO  [Log] X 
+2015-12-05 20:10:28,522 INFO  [Log] X 
+2015-12-05 20:10:28,522 INFO  [Log] X 
+2015-12-06 12:11:21,812 INFO  [Log] TC name A: test.java.ProductSearchTest@42d3bd8b 
+2015-12-06 12:11:21,846 INFO  [Log] TC name B: ProductSearchTest 
+2015-12-06 12:11:38,042 INFO  [Log] OpenBrowser with entry Point: http://store.demoqa.com/ 
+2015-12-06 12:11:43,608 INFO  [Log] Searchbox is found on the BaseClass 
+2015-12-06 12:11:44,084 INFO  [Log] sendkeys: apple into TopNav search 
+2015-12-06 12:11:44,106 INFO  [Log] Searchbox is found on the BaseClass 
+2015-12-06 12:11:45,100 INFO  [Log] Click Enter within Topnav Search 
+2015-12-06 12:11:45,101 INFO  [Log] in der topnavigatin suche nach dem Begriff: apple 
+2015-12-06 12:11:47,518 INFO  [Log] Side was loaded, page title contains 'Search Results' 
+2015-12-06 12:11:47,519 INFO  [Log] SearchPage is present 
+2015-12-06 12:11:47,556 INFO  [Log] Div Product list found on: null 
+2015-12-06 12:11:47,580 INFO  [Log] container for products is present 
+2015-12-06 12:11:47,632 INFO  [Log] count products: 9 
+2015-12-06 12:11:47,632 INFO  [Log] test passed 
+2015-12-06 12:11:47,634 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             ProductSearchTest-E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2015-12-06 12:11:47,634 INFO  [Log] X 
+2015-12-06 12:11:47,634 INFO  [Log] X 
+2015-12-06 12:11:47,634 INFO  [Log] X 
+2015-12-06 12:11:47,635 INFO  [Log] X 
+2015-12-06 12:42:03,263 INFO  [Log] TC name A: test.java.ProductSearchTest@dfd3711 
+2015-12-06 12:42:03,289 INFO  [Log] TC name B: ProductSearchTest 
+2015-12-06 12:42:15,139 INFO  [Log] OpenBrowser with entry Point: http://store.demoqa.com/ 
+2015-12-06 12:42:19,260 INFO  [Log] Searchbox is found on the BaseClass 
+2015-12-06 12:42:21,114 INFO  [Log] sendkeys: apple into TopNav search 
+2015-12-06 12:42:21,138 INFO  [Log] Searchbox is found on the BaseClass 
+2015-12-06 12:42:21,267 INFO  [Log] Click Enter within Topnav Search 
+2015-12-06 12:42:21,267 INFO  [Log] in der topnavigatin suche nach dem Begriff: apple 
+2015-12-06 12:42:23,743 INFO  [Log] Side was loaded, page title contains 'Search Results' 
+2015-12-06 12:42:23,743 INFO  [Log] SearchPage is present 
+2015-12-06 12:42:23,775 INFO  [Log] Div Product list found on: null 
+2015-12-06 12:42:23,800 INFO  [Log] container for products is present 
+2015-12-06 12:42:23,872 INFO  [Log] count products: 9 
+2015-12-06 12:42:23,872 INFO  [Log] test passed 
+2015-12-06 12:42:23,874 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             ProductSearchTest-E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2015-12-06 12:42:23,874 INFO  [Log] X 
+2015-12-06 12:42:23,874 INFO  [Log] X 
+2015-12-06 12:42:23,875 INFO  [Log] X 
+2015-12-06 12:42:23,875 INFO  [Log] X 
+2015-12-06 12:54:55,238 INFO  [Log] TC name A: test.java.ProductSearchTest@3b81a1bc 
+2015-12-06 12:54:55,242 INFO  [Log] TC name B: ProductSearchTest 
+2015-12-06 12:55:08,092 INFO  [Log] OpenBrowser with entry Point: http://store.demoqa.com/ 
+2015-12-06 12:55:11,687 INFO  [Log] Searchbox is found on the BaseClass 
+2015-12-06 12:55:11,768 INFO  [Log] sendkeys: apple into TopNav search 
+2015-12-06 12:55:11,791 INFO  [Log] Searchbox is found on the BaseClass 
+2015-12-06 12:55:12,769 INFO  [Log] Click Enter within Topnav Search 
+2015-12-06 12:55:12,770 INFO  [Log] in der topnavigatin suche nach dem Begriff: apple 
+2015-12-06 12:55:15,353 INFO  [Log] Side was loaded, page title contains 'Search Results' 
+2015-12-06 12:55:15,353 INFO  [Log] SearchPage is present 
+2015-12-06 12:55:15,396 INFO  [Log] Div Product list found on: null 
+2015-12-06 12:55:15,426 INFO  [Log] container for products is present 
+2015-12-06 12:55:15,479 INFO  [Log] count products: 9 
+2015-12-06 12:55:15,479 INFO  [Log] test passed 
+2015-12-06 12:55:15,481 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             ProductSearchTest-E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2015-12-06 12:55:15,481 INFO  [Log] X 
+2015-12-06 12:55:15,481 INFO  [Log] X 
+2015-12-06 12:55:15,481 INFO  [Log] X 
+2015-12-06 12:55:15,481 INFO  [Log] X 
