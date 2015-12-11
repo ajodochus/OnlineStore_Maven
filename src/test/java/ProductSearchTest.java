@@ -3,12 +3,14 @@ package test.java;
 import java.security.Key;
 
 import org.apache.log4j.xml.DOMConfigurator;
+import org.junit.Assert;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import appModules.Search_Action;
 import pageObjects.BaseClass;
 import pageObjects.SearchResultPage;
 import utility.Constant;
@@ -48,17 +50,10 @@ public class ProductSearchTest{
 
 	  try{
 		//Search_Action.top_navigation_search("apple");
-		  	String searchString = "apple";
-		  	SearchResultPage.txt_SearchBox().sendKeys(searchString);
-			Log.info("sendkeys: " + searchString + " into TopNav search" );
-			SearchResultPage.txt_SearchBox().sendKeys(Keys.ENTER);
-			Log.info("Click Enter within Topnav Search");
-			Log.info("in der topnavigatin suche nach dem Begriff: " + searchString);
-			SearchResultPage.waitForPageLoaded();
-			Log.info("SearchPage is present" );
-			SearchResultPage.productList().isDisplayed();
-			Log.info("container for products is present");
-			SearchResultPage.checkProductListAfterProductSearch();
+		  	String searchString = "tv";
+		  	
+		SearchResultPage.top_navigation_search(searchString);
+		Assert.assertTrue("Suchergebnis für TV ergibt 2", SearchResultPage.getCountProductsAfterSearch() == 3); 
 			
 			Log.info("test passed");
 		

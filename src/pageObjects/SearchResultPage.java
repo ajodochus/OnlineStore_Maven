@@ -2,6 +2,7 @@ package pageObjects;
 
 import org.apache.tools.ant.taskdefs.Javadoc.PackageName;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -24,6 +25,7 @@ import utility.Log;
             
             static String xPath_TopNav_SearchField = ".//input[@value='Search Products']";
             static String xPath_ProductContainer = ".//div[@id='grid_view_products_page_container']";
+            static String xPath_SingleProduct = xPath_ProductContainer + "//div[starts-with(@class, 'product_grid_item product_view')]";
             
          
            
@@ -38,7 +40,6 @@ import utility.Log;
 				}
         }  
         
-
         
     	public static WebElement txt_SearchBox() throws Exception{
             try{ 
@@ -51,7 +52,7 @@ import utility.Log;
            		}
            	return element;
         }
-        
+       
         public static WebElement productList() throws Exception {
         	try{
         		element = driver.findElement(By.xpath(xPath_ProductContainer));
@@ -76,9 +77,12 @@ import utility.Log;
            		}
         }
         
-        public static void checkProductListAfterProductSearch() throws Exception{
-        	List<WebElement> products = driver.findElements(By.xpath(xPath_ProductContainer + "/div/div"));
+        public static List<WebElement> get_ListWebelements_ProductsOnSearchResultPage() throws Exception{
+        	//a[starts-with(@href, "buy.php/")]
+        	//<div class="product_grid_item product_view_89">
+        	List<WebElement> products = driver.findElements(By.xpath(xPath_SingleProduct));
         	Log.info("count products: " + products.size());
+			return products;
         }
         
         public static WebElement lnk_LogOut() throws Exception{
@@ -92,5 +96,31 @@ import utility.Log;
            	return element;
         }
         
+        public static void top_navigation_search(String searchString) throws Exception{
+    		
+    		SearchResultPage.txt_SearchBox().sendKeys(searchString);
+    		Log.info("sendkeys: " + searchString + " into TopNav search" );
+    		
+    		SearchResultPage.txt_SearchBox().sendKeys(Keys.ENTER);
+    		Log.info("Search for: " + searchString + "and Enter");
+    		
+    		
+    		SearchResultPage.waitForPageLoaded();
+    		Log.info("SearchPage is present" );		
+    		
+    		SearchResultPage.productList().isDisplayed();
+    		Log.info("container for products is present");
+        	
+
+    	}
+    	
+    	public static Integer getCountProductsAfterSearch() throws Exception{
+    		List<WebElement> list = get_ListWebelements_ProductsOnSearchResultPage();
+    		Integer count = list.size();
+    		
+    		return count;
+    		
+    		
+    	}
       
     }

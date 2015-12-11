@@ -1,7 +1,12 @@
 package appModules;
 
+import java.util.List;
+
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebElement;
 import org.testng.Reporter;
 
+import junit.framework.Assert;
 import pageObjects.BaseClass;
 import pageObjects.CheckOut_Page;
 import pageObjects.Confirmation_Page;
@@ -14,14 +19,11 @@ import utility.Log;
 public class Search_Action {
 	 // I could have created a Function for it but I keep calculations in Functions and test steps in Module Actions
 	 // It could have been avoided and simply put these steps in Test Case, it depends totally on you, everybody has their own choice
-	public static void top_navigation_search(String searchString) throws Exception{
-		
-		BaseClass.txt_SearchBox().sendKeys(searchString);
-		Log.info("in der topnavigatin suche nach dem Begriff: " + searchString);
-		SearchResultPage.waitForPageLoaded();
-    	Log.info("SearchPage is present" );
-		
-
-	}
+	
+	
+	
+	
+	
+	
 
 }
