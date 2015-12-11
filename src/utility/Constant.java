@@ -1,5 +1,11 @@
 package utility;
 
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+import com.sun.jmx.snmp.Timestamp;
+
 public class Constant {
 	    //public static final String URL = "http://www.onlinestore.toolsqa.com";
 	    public static final String URL = "http://store.demoqa.com/";
@@ -7,6 +13,9 @@ public class Constant {
 	    public static final String Password ="ck2ZvO690IW2";
 		public static final String Path_TestData = "bin/testData/";
 		public static final String File_TestData = "TestDataNoX.xls";
+		public static final String File_LOGGERinit = "logs/logger.log";
+		public static final String File_LOGGERwithTimestamp = "logs/logger_" + getTime() + ".log";
+		
 		
 		//Test Data Sheet Columns
 		public static final int Col_TestCaseName = 0;	
@@ -24,4 +33,18 @@ public class Constant {
 		public static final int Col_Email = 12;
 		public static final int Col_Result = 13;
 		public static final String Path_ScreenShot = "bin/screenshots/";
+		
+	
+		
+		public static String getTime(){
+			DateFormat dateFormat = new SimpleDateFormat("yyyyMMdd_HHmmss");
+			Date date = new Date();
+			System.out.println(dateFormat.format(date));
+			return dateFormat.format(date).toString();
+		}
+		
+		
 	}
+
+
+

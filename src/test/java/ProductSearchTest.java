@@ -1,5 +1,6 @@
 package test.java;
 
+import java.io.File;
 import java.security.Key;
 
 import org.apache.log4j.xml.DOMConfigurator;
@@ -28,7 +29,8 @@ public class ProductSearchTest{
   @BeforeMethod
   public void beforeMethod() throws Exception {
 
-	  	DOMConfigurator.configure("log4j.xml");
+	  	//DOMConfigurator.configure("log4j.xml");
+	  	Log.addLogger();
 	  	
 	  	sTestCaseName = this.toString();
 	  	Log.info("TC name A: " + sTestCaseName);
@@ -53,7 +55,7 @@ public class ProductSearchTest{
 		  	String searchString = "tv";
 		  	
 		SearchResultPage.top_navigation_search(searchString);
-		Assert.assertTrue("Suchergebnis für TV ergibt 2", SearchResultPage.getCountProductsAfterSearch() == 3); 
+		Assert.assertTrue("Suchergebnis für TV ergibt 2", SearchResultPage.getCountProductsAfterSearch() == 2); 
 			
 			Log.info("test passed");
 		
@@ -76,6 +78,9 @@ public class ProductSearchTest{
 	    Log.endTestCase(sTestCaseName);
 	    // Closing the opened driver
 	    driver.close();
-  		}
+	    Log.closeLogger();
+
+  }
+
 
 }
