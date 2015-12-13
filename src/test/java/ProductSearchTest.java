@@ -1,8 +1,12 @@
 package test.java;
+import org.junit.AfterClass;
 import org.junit.Assert;
+import org.junit.BeforeClass;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterSuite;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import pageObjects.BaseClass;
@@ -22,29 +26,38 @@ public class ProductSearchTest {
 		return (retkeyword);
 	}
 
-	@BeforeSuite
+	@BeforeTest
 	public void beforeMethod() throws Exception {
 
-		Log.addLogger();
+		//Log.addLogger();
 
-		sTestCaseName = this.toString();
-		Log.info("TC name raw: " + sTestCaseName);
-		sTestCaseName = Utils.getTestCaseName(this.toString());
-		Log.info("TC name no @...: " + sTestCaseName);
-		driver = Utils.OpenFFWithEntryPoint(Constant.URL);
-
-		new BaseClass(driver);
+		
 	}
 
 	@Test(dataProvider="provider")
 	public void verifyProductSearchListResult(String dp_searchString, int dp_count) throws Exception {
 
 		try {
+			sTestCaseName = this.toString();
+			Log.info("TC name raw: " + sTestCaseName);
+			sTestCaseName = Utils.getTestCaseName(this.toString());
+			Log.info("TC name no @...: " + sTestCaseName);
+			
+			driver = Utils.OpenFFWithEntryPoint(Constant.URL);
+
+			new BaseClass(driver);
 			String searchString = dp_searchString;
 			SearchResultPage.top_navigation_search(searchString);
 			Log.info("Searchresult for " + dp_searchString + " expects " + dp_count + " products");
 			Log.info("In fact,  " + SearchResultPage.getCountProductsAfterSearch().toString() + " products are available");
 			Assert.assertTrue("Searchresult should be " + dp_count + " but is " + SearchResultPage.getCountProductsAfterSearch().toString(), SearchResultPage.getCountProductsAfterSearch() == dp_count);
+			
+			// Printing beautiful logs to end the test case
+			Log.endTestCase(sTestCaseName);
+			// Closing the opened driver
+			driver.close();
+			//Log.closeLogger();
+			
 		} catch (Exception e) {
 
 			Utils.takeScreenshot(driver, sTestCaseName);
@@ -57,13 +70,9 @@ public class ProductSearchTest {
 
 	}
 
-	@AfterSuite
+	@AfterTest
 	public void afterMethod() {
-		// Printing beautiful logs to end the test case
-		Log.endTestCase(sTestCaseName);
-		// Closing the opened driver
-		driver.close();
-		Log.closeLogger();
+		//
 
 	}
 

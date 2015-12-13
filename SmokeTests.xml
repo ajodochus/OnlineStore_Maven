@@ -1,9 +1,22 @@
 <suite name="Searchresult Tests" verbose="3">
-	<test name="TopNavi Search serves right number of products" preserve-order="true">
+	<test name="start logger" preserve-order="true">
 		<classes>
-			<class name="test.java.ProductSearchTest" /> 
+			<class name="test.java.Setup" />
+		</classes>
+	</test>
+	<test name="Verify Search Result Count" preserve-order="true">
+		<classes>
+			<class name="test.java.ProductSearchTest" />
+		</classes>
+	</test>
+	<test name="Test Fill Form" preserve-order="true">
+		<classes>
 			<class name="test.java.AddProductTest" />
-			
+		</classes>
+	</test>
+	<test name="stop logger" preserve-order="true">
+		<classes>
+			<class name="test.java.TearDown" />
 		</classes>
 	</test>
 </suite>	

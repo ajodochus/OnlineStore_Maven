@@ -3,6 +3,8 @@ package pageObjects;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeSuite;
 
 import utility.Log;
 
@@ -15,6 +17,8 @@ public class BaseClass {
 		BaseClass.driver = driver;
 		BaseClass.bResult = true;
 	}
+	
+
 	
 
 
