@@ -40,8 +40,8 @@ public class Framework_002 {
   public void f() throws Exception {
 	  try{
 		SignIn_Action.Execute(iTestCaseRow);
-		ProductSelect_Action.productType(iTestCaseRow);
-		ProductSelect_Action.productNumber(iTestCaseRow);
+		//ProductSelect_Action.productType(iTestCaseRow);
+		//ProductSelect_Action.productNumber(iTestCaseRow);
 		ProductListing_Page.PopUpAddToCart.btn_GoToCart().click();
 		CheckOut_Action.Execute();
 		PaymentDetails_Action.execute(iTestCaseRow);

@@ -8,11 +8,51 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import utility.Log;
  
+
+
+
 public class ProductListing_Page extends BaseClass {
+	
+	
+	static String xPath_ProductContainer = ".//div[@id='grid_view_products_page_container']";
+	static String xPath_SingleProduct = xPath_ProductContainer
+			+ "//div[starts-with(@class, 'product_grid_item product_view')]";
+
+	
+	
+	
 	private static WebElement element;
-    public ProductListing_Page(WebDriver driver){
+    public ProductListing_Page(WebDriver driver, String product){
     	super(driver);
     	} 
+    
+    
+    public static WebElement productAddToCard(String product) throws Exception{
+        try{ 
+        	 element = driver.findElement(By.xpath( "//a[text()='"+product+"']/../../..//input[@value='Add To Cart']"));
+        	 element.click();
+        	 ////a[text()='Magic Mouse']/../../..//input[@value='Add To Cart']
+             Log.info("Product Magic mouse add to card button");
+        }catch (Exception e){
+       		Log.error("Magic mouse not found");
+       		throw(e);
+       		}
+       	return element;
+    }
+    
+    
+    public static WebElement product(String product) throws Exception{
+        try{ 
+        	 element = driver.findElement(By.xpath(".//*[@id='account']/a"));
+             Log.info("My Account link is found on the Home Page");
+        }catch (Exception e){
+       		Log.error("My Acocunt link is not found on the Home Page");
+       		throw(e);
+       		}
+       	return element;
+    }
+    
+    
      public static class Product_1{
  
          
@@ -127,7 +167,7 @@ public class ProductListing_Page extends BaseClass {
 	     }
 	
 	
-	public static class PopUpAddToCart{
+ 	public static class PopUpAddToCart{
 		 
 	    
 		 public static WebElement btn_GoToCart() throws Exception{

@@ -34,7 +34,7 @@ import utility.Utils;
             Log.info(sUserName+" is entered in UserName text box" );
             
             String sPassword = ExcelUtils.getCellData(iTestCaseRow, Constant.Col_Password);
-            LogIn_Page.txtbx_Password().sendKeys(sPassword);
+            LogIn_Page.txtbx_Password().sendKeys(Constant.Password);
             Log.info(sPassword+" is entered in Password text box" );
             
             LogIn_Page.btn_LogIn().click();

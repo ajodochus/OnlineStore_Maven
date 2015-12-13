@@ -12,7 +12,8 @@ public class ProductSelect_Action {
 	// iTestcaseRow is the row number of our Testcase name in the Test Data sheet
 	// iTestcaseRow is passed as an Argument to this method, so that it can used inside this method
 	// For use of Functions & Parameters, please see http://www.toolsqa.com/function-parameters/
-	public static void productType(int iTestCaseRow) throws Exception{
+	String categories = "";
+	public static void productType(String categories) throws Exception{
 		try{
 			
         	// iTestcaseRow is the row number of our Testcase name in the Test Data sheet
@@ -20,7 +21,7 @@ public class ProductSelect_Action {
         	// Please see the Constant class in the Utility Package
         	// For Use of Constant Variables, please see http://www.toolsqa.com/constant-variables/
 			// If condition will check that if the Excel value for the Product Type is Accessories, then do this
-			if("Accessories".equals(ExcelUtils.getCellData(iTestCaseRow, Constant.Col_ProductType))){
+			if(categories == "Accessories"){
 	        	
 				// Selecting the link Accessories from Home Page under Top Navigation
 				// This is call Page Object Model (POM)
@@ -30,22 +31,22 @@ public class ProductSelect_Action {
 				Log.info("Product Type Accessories is selected from the Top menu");
 			}
 			// If the Excel value for the Product Type is iMacs, then do this
-			if("iMacs".equals(ExcelUtils.getCellData(iTestCaseRow, Constant.Col_ProductType))){
+			if(categories == "iMacs"){
 				Home_Page.TopNavigation.Product_Type.iMacs();
 				Log.info("Product Type iMacs is selected from the Top menu");
 			}
 			// If the Excel value for the Product Type is iPads, then do this
-			if("iPads".equals(ExcelUtils.getCellData(iTestCaseRow, Constant.Col_ProductType))){
+			if(categories == "iPads"){
 				Home_Page.TopNavigation.Product_Type.iPads();
 				Log.info("Product Type iPads is selected from the Top menu");
 			}
 			// If the Excel value for the Product Type is iPhones, then do this
-			if("iPhones".equals(ExcelUtils.getCellData(iTestCaseRow, Constant.Col_ProductType))){
+			if(categories == "iPhones"){
 				Home_Page.TopNavigation.Product_Type.iPhones();
 				Log.info("Product Type iPhones is selected from the Top menu");
 			}
 			// If the Excel value for the Product Type is null, then do this
-			if("".equals(ExcelUtils.getCellData(iTestCaseRow, Constant.Col_ProductType))){
+			if(categories == ""){
 				Log.warn("Excel value for Product Type is Blank");
 			}
 		
@@ -63,7 +64,7 @@ public class ProductSelect_Action {
 	// iTestcaseRow is the row number of our Testcase name in the Test Data sheet
 	// iTestcaseRow is passed as an Argument to this method, so that it can used inside this method
 	// For use of Functions & Parameters, please see http://www.toolsqa.com/function-parameters/
-	public static void productNumber(int iTestCaseRow) throws Exception{
+	public static void productAddToCartAction(String productName) throws Exception{
 		try{
 			
 			// iTestcaseRow is the row number of our Testcase name in the Test Data sheet
@@ -71,22 +72,26 @@ public class ProductSelect_Action {
         	// Please see the Constant class in the Utility Package
         	// For Use of Constant Variables, please see http://www.toolsqa.com/constant-variables/
 			// If condition will check that if the Excel value for the Product Number is "Product 1", then do this
-			if("Product 1".equals(ExcelUtils.getCellData(iTestCaseRow, Constant.Col_ProductNumber))){
+			if(productName == "Magic Mouse"){
 				
 				// Clicking on the Add to Cart button for the Product 1
 				// This is call Page Object Model (POM)
 	        	// For use of POM, please see http://www.toolsqa.com/page-object-model/
-				ProductListing_Page.Product_1.btn_AddToCart().click();
+				
+				//ProductListing_Page.Product_1.btn_AddToCart().click();
+				
+				ProductListing_Page.productAddToCard(productName);
+				
 				// Printing logs for the performed action
 				Log.info("Product 1 is selected from the Product listing page");
 			}
 			// If the Excel value for the Product Number is "Product 2", then do this
-			if("Product 2".equals(ExcelUtils.getCellData(iTestCaseRow, Constant.Col_ProductNumber))){
+			if(productName == "Apple TV"){
 				ProductListing_Page.Product_2.btn_AddToCart().click();
 				Log.info("Product 2 is selected from the Product listing page");
 			}
 			/// If the Excel value for the Product Type is null, then do this
-			if("".equals(ExcelUtils.getCellData(iTestCaseRow, Constant.Col_ProductNumber))){
+			if(productName == ""){
 				Log.warn("Excel value for Product Number is Blank");
 			}
 			

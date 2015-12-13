@@ -1,8 +1,9 @@
 <suite name="Searchresult Tests" verbose="3">
 	<test name="TopNavi Search serves right number of products" preserve-order="true">
 		<classes>
-			<class name="test.java.ProductSearchTest">
-			</class>
+			<!-- <class name="test.java.ProductSearchTest" />  -->
+			<class name="test.java.Framework_001Test" />
+			
 		</classes>
 	</test>
 </suite>	
