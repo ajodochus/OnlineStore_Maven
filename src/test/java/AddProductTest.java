@@ -39,18 +39,13 @@ public class AddProductTest {
 	@BeforeTest
 	public void beforeMethod() throws Exception {
 
-		//Log.addLogger();
+		// Log.addLogger();
 
-		
 	}
 
 	// This is the starting of the Main Test Case
 	@Test
 	public void main() throws Exception {
-		// Every exception thrown from any class or method, will be catch here
-		// and will be taken care off
-		// For Exception handling please see
-		// http://www.toolsqa.com/selenium-webdriver/exception-handling-selenium-webdriver/
 		try {
 			driver = Utils.OpenFFWithEntryPoint(Constant.URL);
 			new BaseClass(driver);
@@ -78,18 +73,11 @@ public class AddProductTest {
 				throw new Exception("Test Case Failed because of Verification");
 
 			}
-			// Printing beautiful logs to end the test case
 			Log.endTestCase(sTestCaseName);
-			// Closing the opened driver
 			driver.close();
-
-			// Below are the steps you may like to perform in case of failed
-			// test or any exception faced before ending your test
 		} catch (Exception e) {
 
 			Log.error(e.getMessage());
-			// Again throwing the exception to fail the test completely in the
-			// TestNG results
 			throw (e);
 		}
 

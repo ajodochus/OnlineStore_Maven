@@ -56,7 +56,7 @@ public class ProductSearchTest {
 			Log.endTestCase(sTestCaseName);
 			// Closing the opened driver
 			driver.close();
-			//Log.closeLogger();
+
 			
 		} catch (Exception e) {
 
