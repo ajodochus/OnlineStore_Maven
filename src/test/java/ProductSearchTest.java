@@ -51,10 +51,7 @@ public class ProductSearchTest {
 			Log.info("Searchresult for " + dp_searchString + " expects " + dp_count + " products");
 			Log.info("In fact,  " + SearchResultPage.getCountProductsAfterSearch().toString() + " products are available");
 			Assert.assertTrue("Searchresult should be " + dp_count + " but is " + SearchResultPage.getCountProductsAfterSearch().toString(), SearchResultPage.getCountProductsAfterSearch() == dp_count);
-			
-			// Printing beautiful logs to end the test case
 			Log.endTestCase(sTestCaseName);
-			// Closing the opened driver
 			driver.close();
 
 			
