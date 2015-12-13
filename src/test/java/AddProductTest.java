@@ -22,7 +22,7 @@ import appModules.ProductSelect_Action;
 import appModules.SignIn_Action;
 import appModules.Verification_Action;
 
-public class Framework_001Test{
+public class AddProductTest{
 	public WebDriver driver;
 	private String sTestCaseName;
 	private int iTestCaseRow;
@@ -97,7 +97,7 @@ public class Framework_001Test{
 	    // Printing beautiful logs to end the test case
 	    Log.endTestCase(sTestCaseName);
 	    // Closing the opened driver
-	   // driver.close();
+	    driver.close();
 	    Log.closeLogger();
   		}
 

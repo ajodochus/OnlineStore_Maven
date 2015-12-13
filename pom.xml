@@ -20,7 +20,7 @@
         <version>2.19</version>
         <configuration>
           <suiteXmlFiles>
-            <suiteXmlFile>TestSuite_Searchtests.xml</suiteXmlFile>
+            <suiteXmlFile>SmokeTests.xml</suiteXmlFile>
         </suiteXmlFiles>
         </configuration>
       </plugin>

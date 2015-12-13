@@ -44,7 +44,7 @@ public class Framework_002 {
 		//ProductSelect_Action.productNumber(iTestCaseRow);
 		ProductListing_Page.PopUpAddToCart.btn_GoToCart().click();
 		CheckOut_Action.Execute();
-		PaymentDetails_Action.execute(iTestCaseRow);
+		//PaymentDetails_Action.execute(iTestCaseRow);
 		Confirmation_Action.Execute();
 		Verification_Action.Execute();
 		ExcelUtils.setCellData("Pass", iTestCaseRow, Constant.Col_Result);
