@@ -44,7 +44,8 @@ public class AddProductTest {
 	}
 
 	// This is the starting of the Main Test Case
-	@Test
+	
+	@Test(groups= {"products"})
 	public void main() throws Exception {
 		try {
 			driver = Utils.OpenFFWithEntryPoint(Constant.URL);
@@ -82,7 +83,35 @@ public class AddProductTest {
 		}
 
 	}
+	
+	@Test(groups={"products"})
+	public void test1(){
+		Log.info("group products 1");
+		System.out.println("group products 1");
+	}
+	
+	@Test(groups={"products"})
+	public void test2(){
+		Log.info("group products 2");
+		System.out.println("group products 2");
+	}
+	
+	@Test(groups={"smoke"})
+	public void smoke1(){
+		Log.info("group smoke 1");
+		System.out.println("group smoke 1");
+	}
+	
+	@Test(groups={"products"})
+	public void test3(){
+		Log.info("group products 3");
+		System.out.println("group products 3");
+	}
+	
 
+	
+	
+	
 	// Its time to close the finish the test case
 	@AfterTest
 	public void afterMethod() {

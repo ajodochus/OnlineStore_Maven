@@ -33,8 +33,8 @@ public class ProductSearchTest {
 
 		
 	}
-
-	@Test(dataProvider="provider")
+	
+	@Test(dataProvider="provider", groups={"search"})
 	public void verifyProductSearchListResult(String dp_searchString, int dp_count) throws Exception {
 
 		try {
